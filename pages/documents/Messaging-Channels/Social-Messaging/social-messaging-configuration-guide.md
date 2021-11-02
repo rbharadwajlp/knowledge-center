@@ -48,10 +48,6 @@ Social Messaging 2.0 includes the following [features and benefits](https://vime
   * [Facebook Private Replies](https://developers.facebook.com/docs/messenger-platform/discovery/private-replies) are currently not supported.
   * European users: As part of Facebook’s efforts to comply with privacy rules in Europe, Facebook made changes to their APIs and restricted some information. European users will see the Social Messaging widget, however, the user information (Name, Image, Locale, Timezone) will not be shown.
   * In the new Social Messaging widget, there’s an option to Like a public comment/post of the consumer. If an agent is logged in with his private Facebook account on the native platform and is clicking the like button - it likes the post under his private account.
-* **Additional known issues:**
- * Navigating to “All Conversations” list, then navigating back to “My Conversations” list, may cause the Social Messaging buttons disappear (buttons: public/private toggle, link to DM, mention consumer). This is solved on page refresh, or focusing on a different conversation. **Note:** If you experience this bug, refresh your page, or navigate to a different conversation, then back to the conversation you need to reply to.
- * The public/private toggle button is not activated if the consumer has responded both publicly and privately in the conversation, until page refresh/select a different conversation and return to the current one.
- * Conversation source is not presented under the “All Conversations” table for Twitter.
 
 * **Social Messaigng 1.0 (SocialConnect) customers:** 
   * This product has now been sunset. If you wish to use Social Messaging 2.0 features please follow the below steps.
